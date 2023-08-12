@@ -1,0 +1,16 @@
+/* Default styling */
+.mainn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 810px;
+    justify-content: center;
+    margin: auto;
+    border: 2px solid red;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 815px) {
+    .mainn {
+        width: 100%;
+    }
+}

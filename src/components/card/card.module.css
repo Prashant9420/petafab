@@ -1,0 +1,58 @@
+/* Default styling */
+.main {
+    margin: 10px;
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    height: 228px;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 8px 0px;
+    background: rgb(47, 42, 42);
+    background: linear-gradient(90deg, rgba(47, 42, 42, 1) 32%, rgba(10, 9, 9, 1) 96%);
+}
+
+.cont {
+    margin-top: 20px;
+    color: #ffff;
+    opacity: 55%;
+    font-size: 14px;
+}
+
+.upper {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.foot {
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    opacity: 83%;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.foot:active{
+    opacity: 0.5;
+}
+.foot>img{
+    height: 10px;
+    width: 10px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    
+}

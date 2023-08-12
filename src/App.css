@@ -1,0 +1,22 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Roboto:wght@900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Roboto:wght@700&display=swap');
+.bgImg {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  /* z-index: -1; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.App {
+  width: 100%;
+  font-family: 'Oleo Script', cursive;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  line-height: 1.2;
+  overflow-x: hidden;
+  flex-direction: column;
+}
+

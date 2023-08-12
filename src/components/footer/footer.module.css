@@ -1,0 +1,71 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    width:100%;
+    height: auto;
+    padding: 100px 0px;
+    background:linear-gradient(270deg, rgb(214, 169, 249) 4%, rgb(156, 86, 210) 26%, rgb(126, 86, 210) 95%);
+}
+
+
+.head1{
+    font-size: 40px;
+    width: 20%;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 880px;
+    margin-top:30px;
+    justify-content: space-between;
+}
+.buttons>div{
+    display: flex;
+    font-size: 16px;
+    padding:1px 1px;
+    background: linear-gradient(to right, #c20dde, #e800b6, #fd008d, #ff0067, #ff0044, #ff2434, #ff3a21, #ff4c00, #ff6700, #ff7e00, #ff9300, #ffa600);
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.buttons>div:active{
+    opacity: 0.5;
+}
+.buttons>div>div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding:10px 10px;
+    background-color: black;
+    color:white
+}
+.buttons>div>div>img{
+    padding: 0px 10px;
+}
+@media screen and (max-width: 768px) {
+    .head1 {
+        width: 80%;
+    }
+    .head1{
+        font-size: 32px;
+    }
+    .buttons{
+        width: 80vw;
+        
+    }
+    .buttons>div {
+        width: 100%;
+        margin:20px 0px;
+    }
+}

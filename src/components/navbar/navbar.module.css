@@ -1,0 +1,94 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    font-family: sans-serif;
+    padding:10px 0px;
+    position: relative
+}
+.leftMenu{
+    display: flex;
+    color:#d8dafb;
+    z-index: 1;
+    justify-content: space-around;
+    width: 25%;
+    align-items: center; 
+}
+.leftMenu>div,.leftMenu>img{
+    cursor: pointer;
+}
+.leftMenu>div:active,.leftMenu>img:active{
+    opacity: 0.5;
+}
+.rightBlock>div{
+    cursor: pointer;
+}
+.rightBlock>div:active{
+    opacity: 0.5;
+}
+.mainName{
+    color: white; 
+    font-size:x-large;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.rightBlock{
+    color: #d8dafb;
+    display: flex;
+    width: 15%;
+    z-index: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+.getStarted{
+    border: 2px solid blueviolet;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    
+}
+.mainHeading{
+    font-weight: bold;
+    cursor: pointer;
+}
+.mainHeading:active{
+    opacity: 0.5;
+}
+.getStarted>img{
+    padding-left: 10px;
+    position: relative
+}
+
+.leftBrace{
+    color:blueviolet;
+}
+
+.rightBrace{
+    color:blueviolet;
+}
+
+.leftMenu>img{
+    width: 25px;
+    height: 25px;
+    position: relative
+}
+@media screen and (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainName {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .leftMenu,
+    .rightBlock {
+       display: none;
+    }
+}

@@ -1,0 +1,95 @@
+.main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:70px
+    /* justify-content: space-around; */
+}
+.main>div,main>img{
+    margin-bottom:40px
+}
+.head1{
+    font-size: 40px;
+    width: 35%;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+.desc1{
+    font-size: 18px;
+    text-align: center;
+    width: 37%;
+    color: white;
+}
+.play{
+    display: flex;
+    font-size: 16px;
+    padding:1px 1px;
+    background: linear-gradient(to right, #c20dde, #e800b6, #fd008d, #ff0067, #ff0044, #ff2434, #ff3a21, #ff4c00, #ff6700, #ff7e00, #ff9300, #ffa600);
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.play:active{
+    opacity: 0.5;
+}
+.play>div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding:10px 10px;
+    background-color: black;
+    color:white
+}
+.play>div>img{
+    padding:0px 10px
+}
+.gameBox{
+    border:1px solid grey;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 910px;
+    background-color: black;
+    height: 590px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    /* border:2px solid red; */
+    justify-content: center;
+}
+.sdkImgs{
+    width: 1200px;
+    height: 359px;
+}
+@media screen and (max-width: 768px) {
+    .head1,
+    .desc1 {
+        width: 90%;
+    }
+    .head1{
+        font-size: 32px;
+    }
+
+    .play {
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+    .sdkImgs{
+        width: 750px;
+        height: 224px;
+    }
+    .gameBox {
+        height: 300px;
+        width: 360px; /* Adjust height for smaller screens */
+    }
+
+ 
+}
